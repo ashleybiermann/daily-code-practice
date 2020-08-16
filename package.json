@@ -1,0 +1,23 @@
+{
+  "name": "daily-code-practice",
+  "version": "1.0.0",
+  "description": "## Practice in data structures, algorithms, and code challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleybiermann/daily-code-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleybiermann/daily-code-practice/issues"
+  },
+  "homepage": "https://github.com/ashleybiermann/daily-code-practice#readme",
+  "dependencies": {
+    "jest": "^26.4.0"
+  }
+}
