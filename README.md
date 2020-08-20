@@ -6,3 +6,4 @@ Welcome! This repo serves as a centralized location for holding my code challeng
 
 ###  Index
 - [Bob's IQ Test Validator](./bobs-iq-test/README.md)
+- [Narcissistic Numbers](./narcissistic-numbers/README.md)
