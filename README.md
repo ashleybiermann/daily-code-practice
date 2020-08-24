@@ -9,3 +9,4 @@ Welcome! This repo serves as a centralized location for holding my code challeng
 - [Narcissistic Numbers](./narcissistic-numbers/README.md)
 - [Disemvowel](./disemvowel/README.md)
 - [List Filtering](./list-filtering/README.md) 
+- [Camel Case](./camel-case/README.md)
