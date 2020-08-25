@@ -18,16 +18,18 @@
   - if yes, return false
 - Else, return true
 
-
 ## Big O
 
-- Time: 
-- Space: 
+- Time: O(n)
+- Space: O(n) 
 
 ## Test Considerations
-
+- single digit numbers
+- negative numbers
+- numbers of varied lengths
+- test 0
 
 ### Tracking Info
 
-- Source: 
-- Date Completed: 
+- Source: Code Wars
+- Date Completed: Aug 24, 2020
