@@ -28,6 +28,8 @@
 - negative numbers
 - numbers of varied lengths
 - test 0
+- numbers over 4 digits long 
+  - this algorithm does not yet handle large numbers
 
 ### Tracking Info
 
