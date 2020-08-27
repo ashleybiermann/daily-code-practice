@@ -1,44 +1,34 @@
 'use strict';
 
-// FIXME: this currently adds the lefts first then the rights, and doens't yet give the expected output
 function findEvenIndex(arr) {
-  let leftSum = 0;
-  let rightSum = 0;
-  let result = -1;
-  let pointer = 0;
+  const n = arr.length;
 
+  // make an array for left side, starting at index 0
+  let leftSum = [];
+  leftSum[0] = arr[0];
+  for (let i = 1; i < n; i++) {
+    leftSum[i] = leftSum[i - 1] + arr[i];
+  }
+  console.log('leftSum', leftSum);
 
-  for(let i = 0; i < arr.length; i++) {
+  // make an array for right side, starting from end of array
+  let rightSum = [];
+  rightSum[n - 1] = arr[n - 1];
+  for (let i = (n - 2); i >= 0; i--) {
+    rightSum[i] = rightSum[i + 1] + arr[i];
+  }
+  console.log('rightSum', rightSum);
 
-    // add left side
-    if(pointer < arr[i]) {
-      leftSum += arr[i];
-      console.log('leftSum: ', leftSum);
-    }
-
-    // add right side
-    if(pointer > arr[i]) {
-      rightSum += arr[i];
-      console.log('rightSum: ', rightSum);
-    }
-
-    // after left and right have been totaled, check for match
-    if (leftSum === rightSum) {
-      result = i;
-      return result;
-    } else {
-    // move the pointer one more index forward
-    pointer++;
-    console.log('pointer going forward to index ', pointer);
+  // compare leftSum and rightSum arrays
+  for (let i = 0; i < n; i++) {
+    if (leftSum[i] === rightSum[i]) {
+      return i;
     }
   }
 
-  return result;
+  return -1;
 }
 
-
-
-findEvenIndex([1,2,3,4,3,2,1]);
 
 
 module.exports = findEvenIndex;
