@@ -6,7 +6,10 @@ Welcome! This repo serves as a centralized location for holding my code challeng
 
 ###  Index
 - [Bob's IQ Test Validator](./bobs-iq-test/README.md)
-- [Narcissistic Numbers](./narcissistic-numbers/README.md)
-- [Disemvowel](./disemvowel/README.md)
-- [List Filtering](./list-filtering/README.md) 
 - [Camel Case](./camel-case/README.md)
+- [Disemvowel](./disemvowel/README.md)
+- [Is Prime](./isPrime/README.md)
+- [List Filtering](./list-filtering/README.md) 
+- [Narcissistic Numbers](./narcissistic-numbers/README.md)
+- [Persistent Bugger](./persistent-bugger.README.md)
+- [Song Decoder](./song-decoder.README.md)
