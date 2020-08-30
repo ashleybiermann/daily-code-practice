@@ -13,3 +13,4 @@ Welcome! This repo serves as a centralized location for holding my code challeng
 - [Narcissistic Numbers](./narcissistic-numbers/README.md)
 - [Persistent Bugger](./persistent-bugger.README.md)
 - [Song Decoder](./song-decoder.README.md)
+- [Array Diff](./array-diff.README.md)
