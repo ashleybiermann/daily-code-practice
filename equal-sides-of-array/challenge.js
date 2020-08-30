@@ -9,7 +9,7 @@ function findEvenIndex(arr) {
   for (let i = 1; i < n; i++) {
     leftSum[i] = leftSum[i - 1] + arr[i];
   }
-  console.log('leftSum', leftSum);
+  // console.log('leftSum', leftSum);
 
   // make an array for right side, starting from end of array
   let rightSum = [];
@@ -17,7 +17,7 @@ function findEvenIndex(arr) {
   for (let i = (n - 2); i >= 0; i--) {
     rightSum[i] = rightSum[i + 1] + arr[i];
   }
-  console.log('rightSum', rightSum);
+  // console.log('rightSum', rightSum);
 
   // compare leftSum and rightSum arrays
   for (let i = 0; i < n; i++) {

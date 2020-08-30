@@ -7,7 +7,7 @@
 function persistence(num) {
 
   let counter = 0;
-  console.log('counter start at top of persistence', counter);
+  // console.log('counter start at top of persistence', counter);
 
   // user helper function to take on the recursion, so that the counter can be persisted
   
