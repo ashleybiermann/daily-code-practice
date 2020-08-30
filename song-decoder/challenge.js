@@ -3,11 +3,7 @@ function songDecoder(song){
   const regexWUB = /(WUB)/gm;
   const regexSpaces = /\s+/gm;
   let decoded = '';
-
-  if (typeof song !== String) {
-    decoded = 'invalid arg';
-  }
-
+  
   // replace all instances of 'WUB' with a ' '
   let wubsToSpaces = song.replace(regexWUB, ' ');
 
