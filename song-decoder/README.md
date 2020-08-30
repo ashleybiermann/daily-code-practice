@@ -19,8 +19,8 @@
 
 ## Big O
 
-- Time: 
-- Space: song
+- Time: O(n^3), goes through song 3 times, changing it a bit each time
+- Space: O(n^3), creates 3 versions of the string 
 
 ## Test Considerations
 
@@ -31,4 +31,4 @@
 ### Tracking Info
 
 - Source: Code Wars
-- Date Completed: Aug 27, 2020
+- Date Completed: Aug 27, 2020 (testing Aug 30)
