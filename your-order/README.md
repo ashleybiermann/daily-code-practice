@@ -28,5 +28,5 @@ Return RESULT
 
 ### Tracking Info
 
-- Source: 
-- Date Completed: 
+- Source: Code Wars
+- Date Completed: Sept 1, 2020
