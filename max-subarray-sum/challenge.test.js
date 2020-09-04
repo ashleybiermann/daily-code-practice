@@ -16,4 +16,8 @@ describe( "maxSum Function", () => {
     expect(maxSum([-2, -1, -3, -4, -1, -2, -1, -5, -4])).toStrictEqual(0);
   });  
 
+  it( 'Should return the sum of the whole array if all numbers are positive', () => {
+    expect(maxSum([1, 2, 3, 4, 5, 6])).toStrictEqual(21);
+  });
+
 });
